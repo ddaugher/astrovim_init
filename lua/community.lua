@@ -4,10 +4,10 @@
 
 ---@type LazySpec
 return {
-  "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.elixir-phoenix" },
-  { import = "astrocommunity.test.vim-test" },
-  { import = "astrocommunity.editing-support.vim-visual-multi" },
-  -- import/override with your plugins folder
+	"AstroNvim/astrocommunity",
+	{ import = "astrocommunity.pack.lua" },
+	{ import = "astrocommunity.pack.elixir-phoenix" },
+	{ import = "astrocommunity.test.vim-test" },
+	{ import = "astrocommunity.editing-support.vim-visual-multi" },
+	{ import = "astrocommunity.colorscheme.github-nvim-theme" }, -- import/override with your plugins folder
 }
