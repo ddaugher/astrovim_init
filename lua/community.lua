@@ -9,7 +9,7 @@ return {
 	{ import = "astrocommunity.pack.elixir-phoenix" },
 	{ import = "astrocommunity.test.vim-test" },
 	{ import = "astrocommunity.editing-support.vim-visual-multi" },
-	{ import = "astrocommunity.colorscheme.github-nvim-theme" }, -- import/override with your plugins folder
+	{ import = "astrocommunity.colorscheme.nord-nvim" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.utility.hover-nvim" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.completion.cmp-nvim-lua" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.terminal-integration.vim-tmux-navigator" }, -- import/override with your plugins folder
