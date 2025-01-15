@@ -11,7 +11,7 @@ return {
 		-- change colorscheme
 		colorscheme = "nord",
 		-- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
-		highlights = {
+		higwlights = {
 			init = { -- this table overrides highlights in all themes
 				-- Normal = { bg = "#ffffff" },
 			},
