@@ -28,3 +28,4 @@ end
 
 require("lazy_setup")
 require("polish")
+require("toggleterm")
