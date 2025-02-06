@@ -1,0 +1,7 @@
+{
+  "setup": {
+    "prefix": ["withc"],
+    "body": ["with {:$1, $2} when not is_nil($2) <- {:$1, $3}"],
+    "description": "Standard 'with' clause"
+  }
+}
