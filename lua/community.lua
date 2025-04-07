@@ -17,4 +17,5 @@ return {
 	{ import = "astrocommunity.terminal-integration.vim-tmux-navigator" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.test.vim-test" },
 	{ import = "astrocommunity.utility.hover-nvim" }, -- import/override with your plugins folder
+	{ import = "astrocommunity.motion.mini-ai" }, -- import/override with your plugins folder
 }
