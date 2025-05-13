@@ -14,18 +14,22 @@ if not pcall(require, "lazy") then
   vim.api.nvim_echo(
     { { ("Unable to load lazy from: %s\n"):format(lazypath), "ErrorMsg" }, { "Press any key to exit...", "MoreMsg" } },
     true, {})
-  vim.api.nvim_create_autocmd("VimLeavePre", {
-    pattern = "*",
-    callback = function()
-      if vim.g.savesession then
-        vim.api.nvim_command("mks!")
-      end
-    end,
-  })
-  vim.fn.getchar()
-  vim.cmd.quit()
+	vim.api.nvim_create_autocmd("VimLeavePre", {
+		pattern = "*",
+		callback = function()
+			if vim.g.savesession then
+				vim.api.nvim_command("mks!")
+			end
+		end,
+	})
+	vim.fn.getchar()
+	vim.cmd.quit()
 end
 
 require("lazy_setup")
 require("polish")
 require("toggleterm")
+
+require("lspconfig").elixirls.setup({
+	cmd = { "/Users/Shared/elixir-ls/release/language_server.sh" },
+})

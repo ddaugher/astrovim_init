@@ -14,7 +14,6 @@ return {
 			inlay_hints = true, -- enable/disable inlay hints on start
 			semantic_tokens = true, -- enable/disable semantic token highlighting
 			signature_help = true, -- enable automatic signature help popup globally on startup
-			inlay_hints = true, -- enable inlay hints globally on startup
 		},
 		-- customize lsp formatting options
 		formatting = {

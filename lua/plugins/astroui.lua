@@ -9,7 +9,7 @@ return {
 	---@type AstroUIOpts
 	opts = {
 		-- change colorscheme
-		colorscheme = "nord",
+		colorscheme = "default",
 		-- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
 		higwlights = {
 			init = { -- this table overrides highlights in all themes
