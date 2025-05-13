@@ -6,6 +6,7 @@
 return {
 	"AstroNvim/astrocommunity",
 	{ import = "astrocommunity.colorscheme.nord-nvim" }, -- import/override with your plugins folder
+	{ import = "astrocommunity.colorscheme.helix-nvim" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.completion.cmp-nvim-lua" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.completion.copilot-lua-cmp" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.editing-support.auto-save-nvim" }, -- import/override with your plugins folder
